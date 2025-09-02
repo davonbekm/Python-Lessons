@@ -5,24 +5,20 @@
 ---
 
 ## Mundarija (O‘zbekcha)
-- [1. Tez tushuncha (TL;DR)](#1-tez-tushuncha-tldr)
+- [1. Asosiy tushuncha (TL;DR)](#1-tez-tushuncha-tldr)
 - [2. Asosiy naqsh: try / except / else / finally](#2-asosiy-naqsh-try--except--else--finally)
 - [3. Xatoni ko‘tarish: raise va from e](#3-xatoni-kotarish-raise-va-from-e)
 - [4. Bir nechta except, keng guard, va custom exception](#4-bir-nechta-except-keng-guard-va-custom-exception)
 - [5. EAFP vs LBYL](#5-eafp-vs-lbyl)
 - [6. Resurslar: with va finally](#6-resurslar-with-va-finally)
-- [7. Amaliy mini-loyiha: fayldan o‘qish va o‘rtacha](#7-amaliy-mini-loyiha-fayldan-oqish-va-ortacha)
-- [8. assert — qachon ishlatamiz, qachon yo‘q](#8-assert--qachon-ishlatamiz-qachon-yoq)
+- [7. Ee: Fayldan o‘qish va o‘rtacha...](#7-amaliy-mini-loyiha-fayldan-oqish-va-ortacha)
+- [8. assert](#8-assert--qachon-ishlatamiz-qachon-yoq)
 - [9. enumerate nima qiladi](#9-enumerate-nima-qiladi)
-- [10. Eng ko‘p uchraydigan xatolar](#10-eng-kop-uchraydigan-xatolar)
-- [11. Eng yaxshi amaliyotlar (checklist)](#11-eng-yaxshi-amaliyotlar-checklist)
-- [12. Intervyu savol-javoblari](#12-intervyu-savol-javoblari)
-- [13. Mashqlar](#13-mashqlar)
-- [14. English version](#14-english-version)
+- [10. English version](#14-english-version)
 
 ---
 
-## 1) Tez tushuncha (TL;DR)
+## 1) Asosiy tushuncha (TL;DR)
 - **try** — xatoga moyil kod shu yerda.
 - **except** — xato bo‘lsa shu ishga tushadi (aniq turini ushlashga harakat qiling).
 - **else** — **xato bo‘lmasa** ishga tushadi (muvaffaqiyat yo‘li).
@@ -232,39 +228,6 @@ for i, c in enumerate(colors, start=1):
 
 - Iteratsiya vaqtida **indeks+element** juftliklari beradi.
 - Fayl o‘qishda ayniqsa qulay: qaysi satrda xato bo‘lganini aniq ko‘rsatadi.
-
----
-
-## 10) Eng ko‘p uchraydigan xatolar
-- `ValueError`, `TypeError`, `KeyError`, `IndexError`, `ZeroDivisionError`  
-- `FileNotFoundError`, `PermissionError`, `TimeoutError`
-
----
-
-## 11) Eng yaxshi amaliyotlar (checklist)
-- [ ] `try` ni qisqa tuting; muvaffaqiyat yo‘lini `else`ga ajrating.  
-- [ ] Aniqlangan turlarni tuting; yalang‘och `except:`dan qoching.  
-- [ ] Xatoni yutib yubormang (`except ...: pass` yo‘q!).  
-- [ ] `raise NewError(...) from e` bilan sabab zanjirini saqlang.  
-- [ ] `finally`da `return` yozmang.  
-- [ ] Resurslar uchun `with`dan foydalaning.  
-- [ ] Keng `except Exception`ni faqat eng yuqori “guard” sifatida.
-
----
-
-## 12) Intervyu savol-javoblari
-- **`else` qachon ishlaydi?** — Faqat `try`da xato bo‘lmasa.  
-- **`finally` nima qiladi?** — Har doim ishlaydi (tozalash/yopish).  
-- **`raise ... from e` nima uchun?** — Yangi xato + asl sabab zanjiri (debug oson).  
-- **`assert` vs `raise`?** — `assert` ichki invariantlar, `raise` real xatolar.  
-- **EAFP vs LBYL?** — Python’da EAFP ko‘pincha xavfsizroq/aniqroq.
-
----
-
-## 13) Mashqlar
-1) `parse_int(text)` yozing: bo‘sh joy va `+/-` ni qabul qilsin; aksi — aniq `ValueError`.  
-2) Fayldagi `#` bilan boshlangan satrlarni sharh deb o‘tkazib yuboring.  
-3) `safe_div(a, b)` yozing: `ZeroDivisionError`ni tuting va foydali xabar qaytaring.
 
 ---
 
