@@ -1,11 +1,9 @@
 
 """
-O'zbekcha:
   Mavzu: Asosiy oqim — try / except / else / finally
   Xatolik turlari: ValueError (inputni int ga o‘girayotganda), lekin naqsh umumiy.
   Qayerda ishlatish: Foydalanuvchi kiritmalari, oddiy parsing, kichik riskli bloklar.
 
-English:
   Topic: Core flow — try / except / else / finally
   Error types: ValueError (when casting input to int), but the pattern is general.
   When to use: User inputs, simple parsing, small risky blocks.

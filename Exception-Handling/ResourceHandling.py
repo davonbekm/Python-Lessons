@@ -1,11 +1,9 @@
 
 """
-O'zbekcha:
   Mavzu: Resurslar bilan ishlash — with (context manager) va try/finally.
   Xatolik turlari: FileNotFoundError.
   Qayerda ishlatish: Fayl, soket, ulanishlarni ochish/yopish.
 
-English:
   Topic: Resource handling — with (context manager) and try/finally.
   Error types: FileNotFoundError.
   When to use: Opening/closing files, sockets, connections.

@@ -1,11 +1,9 @@
 
 """
-O'zbekcha:
   Mavzu: EAFP vs LBYL (pythonik uslub).
   Xatolik turlari: KeyError (cache[key]).
   Qayerda ishlatish: Lug'at/cache o'qish, race/TOCTOU bo'lishi mumkin bo'lgan joylarda EAFP yaxshi.
 
-English:
   Topic: EAFP vs LBYL (pythonic style).
   Error types: KeyError (cache[key]).
   When to use: Dict/cache access; EAFP is safer under race/TOCTOU scenarios.

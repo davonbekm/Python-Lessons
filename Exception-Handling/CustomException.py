@@ -1,11 +1,9 @@
 
 """
-O'zbekcha:
   Mavzu: Maxsus (custom) exception yaratish.
   Xatolik turlari: DomainError (biznes qoidasi buzilganda).
   Qayerda ishlatish: Biznes qoidalari, validatsiya.
 
-English:
   Topic: Creating a custom exception.
   Error types: DomainError (when business rule is violated).
   When to use: Business rules and validations.

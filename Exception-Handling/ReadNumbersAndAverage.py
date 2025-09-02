@@ -1,11 +1,9 @@
 
 """
-O'zbekcha:
   Mavzu: Fayldan sonlarni o'qish va o'rtacha hisoblash (xatolarga chidamli).
   Xatolik turlari: FileNotFoundError, ValueError.
   Qayerda ishlatish: Ma'lumotlarni tozalab o'qish, log/diagnostika bilan davom etish.
 
-English:
   Topic: Read numbers from a file and compute average (error-tolerant).
   Error types: FileNotFoundError, ValueError.
   When to use: Robust ingestion with logging/diagnostics.

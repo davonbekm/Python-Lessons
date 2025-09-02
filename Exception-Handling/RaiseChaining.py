@@ -1,11 +1,9 @@
 
 """
-O'zbekcha:
   Mavzu: raise va 'from e' bilan zanjirlash.
   Xatolik turlari: ValueError (parsingda).
   Qayerda ishlatish: Pastki qatlam xatosini yuqori qatlamga ma'noli xabar bilan ko'tarish.
 
-English:
   Topic: raise and chaining with 'from e'.
   Error types: ValueError (during parsing).
   When to use: Re-throwing lower-level errors with a clearer, domain-specific message.

@@ -1,11 +1,9 @@
 
 """
-O'zbekcha:
   Mavzu: Aniq turdagi xatolarni ushlash (KeyError, ValueError) va keng guard.
   Xatolik turlari: KeyError (lug'at kaliti yo'q), ValueError (noto'g'ri format).
   Qayerda ishlatish: Lug'atdan o'qish, format/parsing, yuqori qatlamda broad guard.
 
-English:
   Topic: Catching specific exceptions (KeyError, ValueError) and a broad guard.
   Error types: KeyError (missing dict key), ValueError (invalid format).
   When to use: Dict access, format/parsing; use broad guard only at top boundaries.
