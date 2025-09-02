@@ -406,4 +406,4 @@ for i, c in enumerate(colors, start=1):
 
 ---
 
-**Author’s note:** Feel free to copy, adapt, and use these snippets. Happy coding!
+**Author’s note:** Happy coding!

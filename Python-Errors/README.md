@@ -362,9 +362,9 @@ assert den != 0, "Denominator must not be 0"
 
 ---
 
-## Qanday ushlash va toza tutish?
+## Qanday ushlash va toza tutish mumkun?
 
-**Try/Except bilan aniq ushlang:**
+**Try/Except bilan aniq ushlash:**
 ```python
 try:
     n = int(input_str)
@@ -384,7 +384,7 @@ except TypeError:
     avg = sum(nums) / len(nums)
 ```
 
-**O‘zingizning istisnoyingizni yarating:**
+**Isno yaratish:**
 ```python
 class ConfigError(Exception):
     pass
@@ -398,11 +398,10 @@ def load_config(path):
 
 ---
 
-## Qisqa xulosa
+## P.S.
 
 - **SyntaxError/IndentationError**: kod *boshlanmasdan* oldin ushlanadi — qavslar, qo‘shtirnoqlar, joy tashlashni tekshiring.  
 - **Runtime Exceptions**: ish davomida yuzaga keladi — `TypeError`, `ValueError`, `IndexError`, `ZeroDivisionError`, `KeyError`, `FileNotFoundError`, `PermissionError`, `TimeoutError`, `ConnectionError`, va hokazo.  
 - **Logic Errors**: istisno yo‘q, lekin natija noto‘g‘ri — testlar, `assert` (dev), va kod ko‘rib chiqish bilan tuting.  
-- **Yaxshi odatlar**: aniq `try/except`, foydali xabarlar, kerak bo‘lsa `defaultdict`/`Counter`, va `requests` kabi kutubxonalar istisnolarini alohida ko‘rib chiqing.
 
-*EN: Keep errors informative, handle only what you can fix, and write tests to prevent logic bugs from slipping through.*
+**Author’s note:** Happy coding!
