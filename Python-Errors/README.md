@@ -1,4 +1,4 @@
-# Python xatoliklari: qisqa qoʻllanma (+ English commentary)
+# Python xatoliklari (+ English commentary)
 
 Python’dagi xatoliklarni ikkiga bo‘lish qulay: **syntax xatoliklari** (kodni umuman ishlatmaydi) va **runtime istisnolari** (kod ishlayotganda yuzaga keladi). Quyida har bir turga sodda misollar, **to‘g‘rilash yo‘llari**, va yonida **English izohlar** bilan ketma-ket ko‘rsataman.
 
