@@ -1,4 +1,4 @@
-# Python’da Xatoliklar bilan Ishlash — Exceptions & Error Handling (O‘zbekcha + English)
+# Python’da Xatoliklar bilan Ishlash — Exceptions & Error Handling (+ English commentary)
 
 > : Exception Handling `try / except / else / finally`, `raise`, `raise ... from e`, `assert`, `enumerate`, EAFP vs LBYL.
 
