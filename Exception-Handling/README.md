@@ -4,7 +4,7 @@
 
 ---
 
-## Mundarija (O‘zbekcha)
+## Re'ja
 - [1. Asosiy tushuncha (TL;DR)](#1-tez-tushuncha-tldr)
 - [2. Asosiy naqsh: try / except / else / finally](#2-asosiy-naqsh-try--except--else--finally)
 - [3. Xatoni ko‘tarish: raise va from e](#3-xatoni-kotarish-raise-va-from-e)
